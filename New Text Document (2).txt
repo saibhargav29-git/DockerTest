@@ -1,0 +1,6 @@
+As Administrator i configure and integrate Servers in jenkins end and then install automated scripts in those boxes. Also I get requirements from all the applications onboarded to cloudbess for doing end to end automation starting with code checkout, Build process, Testing, And then finally moving the target artifacts to Remote repository like Nexus Or To the L1 boxes also sometimes hosts the application either Paas like PCF  and Urbancode Deploy.
+I have exposure on Backing up artifacts from nexus to AWS s3 storage and also has knowledge on PYTHON.
+
+
+
+INC0011205728

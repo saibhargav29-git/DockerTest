@@ -1,0 +1,62 @@
+<path id="pmd.classpath">
+                                <fileset dir="pmd/lib/">
+                                                <include name="*.jar" />
+                                </fileset>
+                </path>
+                
+                <taskdef name="pmd" classname="net.sourceforge.pmd.ant.PMDTask" classpathref="pmd.classpath" />
+                                
+                <target name="pmd-report" description="Generate PMD report">
+                                <pmd rulesetfiles="pmd/rulesets/fedexruleset.xml" shortFilenames="true">
+                                                <!--
+                                                                Rather than formatting as html, format as XML then convert to html with corley-pmd-report.xslt. This gives us the XML file
+                                                                for use with tools like Jenkins and a nice HTML report.
+                                                --> 
+                                                <formatter type="xml" toFile="${target.dir}/acctsvc_pmd_report.xml" toConsole="true"/>
+                                                <fileset dir="src/main/java">
+                                                                <include name="**/*.java"/>
+                                                                <exclude name="com/fedex/jmstools/*.java"/> <!--Ignore external client tools-->
+                                                </fileset>
+                                </pmd>
+                                <xslt in="${target.dir}/acctsvc_pmd_report.xml" style="pmd/reports/corley-pmd-report.xslt" out="${target.dir}/acctsvc_pmd_report.html" />
+                </target>
+
+                <!--
+                                Retrieves the latest revision of the schemas.
+                                This includes the CDS schemas for the customer domain and the CAM service schema.
+                -->
+                <target name="get-cam-schema">
+                                <!-- Read in schema versions from build-default.properties -->
+                                <property file="build/build-default.properties" />
+                                
+                                <property name="url.base" value="http://cfam.idev.fedex.com/projects/fusion_messaging_services/public/customerfusion/schema" />
+                                <property name="schema.dest.base.dir" value="${resources.dir}/contract/xsds" />
+                                
+                                <!-- CAM schema -->
+                                <get src="${url.base}/custAcctMaintSvc/${cam.major.version}.${cam.minor.version}/custAcctMaintSvc.${cam.major.version}.${cam.minor.version}.xsd"
+                                                dest="${schema.dest.base.dir}/custAcctMaintSvc.${cam.major.version}.xsd"/>
+                </target>
+
+                <!--
+                                Uses XJC to compile project schemas into Java source files.
+                                This should be manually executed when there is a change to the schemas as it is not executed automatically with the build. 
+                -->
+                <target name="build-acctsvc-schema-objects" depends="get-cam-schema">
+                                <!-- Delete existing object source to ensure any types deleted from the schema have their class removed. -->
+                                <delete failonerror="false">
+                                                <fileset dir="${src.dir}/com/fedex/xsdobjects/acctsvc/" includes="*.java"/>
+                                </delete>
+
+                                <!--
+                                With Java 8 I had to add "javax.xml.accessExternalSchema=all" to $JAVA_HOME/jre/lib/jaxp.properties.
+                                -->
+                                <xjc destdir="${src.dir}" package="com.fedex.xsdobjects.acctsvc">
+                                                <schema dir="${resources.dir}/contract/xsds" includes="custAcctMaintSvc.2.xsd"/>
+                                                <binding dir="build" includes="bindings.xml" />
+                                                <arg value="-no-header" />
+                                                <arg value="-extension" />
+                                </xjc>
+
+                                <!-- Enforce a consistent line ending since XJC uses different line terminators depending on the environment. -->
+                                <fixcrlf srcdir="${src.dir}/com/fedex/xsdobjects/acctsvc" includes="*.java" eol="lf"/>
+                </target>

@@ -1,0 +1,20 @@
+Full Stack Engineer
+ 
+Essential 
+ 
+•	A degree or equivalent experience in Computer Science or similar field, including a solid understanding of Computer Science fundamentals
+•	2+ years of developing and implementing systems at scale
+•	Strong understanding of computer science concepts, object oriented design principles
+•	Basic understanding of distributed systems, operating systems, networking, databases, security, and analytics
+•	Experience developing software in different programming languages, and demonstrated ability to quickly learn new languages, including but not limited to Javascript, Java (Spring) and Python.
+•	Experience and knowledge in developing REST APIs including tooling for documentation (swagger, REST-docs, openapi spec), versioning, service discovery/registration, testing and management; experience using API gateways a plus
+•	Experience in Test Driven Development; including knowledge and experience in at least one of testing frameworks like junit, mockito, jasmine, protractor, cucumber, and other like technologies is a plus.
+•	Knowledge/Experience developing continuous integration, continuous delivery and continuous deployment pipelines for distributed apps
+•	Able to learn new technologies.
+•	Able to work effectively across organizational and geographical boundaries
+ 
+Desirable
+ 
+•	Experience and knowledge in web and API security including authentication, authorization, OAuth, OWASP, OpenID, and SAML is a plus.
+•	Experience in backend database development (relational, NoSQL, caching) and optimization.
+•	Knowledge/Experience of modern JavaScript tools such as Webpack, Babel, ESLint, Gulp, NPM, Bower, Browserify, Grunt and similar technologies

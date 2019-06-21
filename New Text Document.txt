@@ -1,0 +1,1 @@
+Essentials : AWS  and Python, AWS Glue, AWS S3, AWS Athena, AWS Aurora, AWS Cloud Formation, Python Scripting, PySpark, AWS Data Pipeline and Good to have : Good to have:   ETL experience, Data Warehouse knowledge, Big Data Knowledge, AWS Redshift, AWS Aurora

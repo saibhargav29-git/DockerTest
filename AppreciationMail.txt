@@ -1,0 +1,300 @@
+From:	Sreedhar Khatri (OSV) <sreedhar.khatri.osv@fedex.com>
+Sent:	Thursday, March 01, 2018 12:52 AM
+To:	Kottisa, Saibhargav
+Cc:	Jain, Rishu; CR, Vivekananda; Mani, Saravanan; ChennaiFedEx_Dev_Framework
+Subject:	RE: Regarding the Requests worked on 28th Feb/2018
+
+Follow Up Flag:	Follow up
+Flag Status:	Flagged
+
+Hi Saibhargav,
+
+ 
+
+Appreciate your efforts towards CI/CD. 
+
+ 
+
+Good to see we have good trained resource in CD/CD support. 
+
+ 
+
+Thanks Giridhar for you are time. 
+
+ 
+
+ 
+
+Thanks and Regards,
+
+Sreedhar Khatri  , SAFe® Practitioner
+
+Developer Frameworks, 40 FedEx Parkway, 1st Floor Horizontal, Collierville, TN – 38017.
+
+Desk#901-263-8487
+
+ 
+
+From: Kottisa, Saibhargav [mailto:Saibhargav_Kottisa@syntelinc.com] 
+Sent: Wednesday, February 28, 2018 11:57 AM
+To: ChennaiFedEx_Dev_Framework <ChennaiFedEx_Dev_Framework@syntelinc.com>
+Cc: Jain, Rishu <Rishu_Jain@syntelinc.com>; CR, Vivekananda <Vivekananda_CR@syntelinc.com>; Mani, Saravanan <Saravanan_Mani@syntelinc.com>; 'Sreedhar Khatri (OSV)' <sreedhar.khatri.osv@fedex.com>
+Subject: Regarding the Requests worked on 28th Feb/2018
+
+ 
+
+Hi Team,
+
+ 
+
+Please find the  details of 4 CI/CD requests which I have worked for today.
+
+S.no
+
+	Request ID
+
+	Support category
+
+	Resolution
+
+	Status
+
+	Shift time
+
+	
+1
+
+	TASK0090881
+
+	CI/CD support
+
+	Gave access to FF-DO-Admin group  shared library for the mentioned sonar project
+
+	Closed
+
+	3pm to 12am
+
+	
+2
+
+	TASK0090955
+
+	CI/CD support
+
+	Created common login to the nexus repo for eai:1492 and configured in the jenkins side for transferring artifacts over ssh
+
+	Closed
+
+	3pm to 12am
+
+	
+3
+
+	TASK0090957
+
+	CI/CD support
+
+	Suggested user to raise gitlab developer AD group access in IMAGE site
+
+	Closed
+
+	3pm to 12am
+
+	
+4
+
+	TASK0090994
+
+	CI/CD support
+
+	Created folders in jenkins  and gave IMAGE authentication to config,build,etc…. And also suggested user  to raise gitlab developer AD group access in IMAGE 
+
+	Closed
+
+	3pm to 12am
+
+	
+
+ 
+
+ 
+
+ 
+
+Thanks and Regards,
+
+Kottisa Sai Bhargav.
+
+From:	Jain, Rishu
+Sent:	Thursday, March 01, 2018 8:24 PM
+To:	Kesavan, SenthilRajakumar; Sreedhar Khatri (OSV); Kottisa, Saibhargav
+Cc:	CR, Vivekananda; Mani, Saravanan; ChennaiFedEx_Dev_Framework
+Subject:	RE: Regarding the Requests worked on 28th Feb/2018
+
+Follow Up Flag:	Follow up
+Flag Status:	Flagged
+
+Sai - Good to see that you are picking up well and providing valuable support. Keep it up. 
+
+ 
+
+Thanks and Regards,
+
+ 
+
+Rishu Jain, PMP®, SAFe® Practitioner
+
+Syntel | Senior Consultant – Logistics
+
+mobile +1 901 337 7263 <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABcklEQVR4XpXTPUvDUBTH4aR2c2hBQXGpTiIORhBcBOvgYKf0Awi+4Ggr1MVPIIrYdnEpShddHIyLi6AVXVxsRRDRwbi4KNgu4lCIv8i/i6QRDzycy+09555LqOl5nhEUptPoJe1iDHU8oYlrlDw79m4QEbSLPexzsIc8hDRm8YBjLpj4q8EgxQdab+MNd4ghhQ2adIc1+ORAFEnWWfTDRp7GDfImlsIavKALLuqoqMGUCs4wHtagiQ5uc8kDyCOBKlP1k78QNTOZnMXCQRxWsbjl6iuskV41SQG2Gj9rikvcR1WcgKFDBa1LOEUK56hqv8BUFV3SGWkVS9JQ6Dsv4wQ1DKMPORUvkm78BhdQMI1CTa5I0yrcwSFqFD+SZ7DQesIkCG5S/JpkHYERQRmuNsrZ7Grc+Ef8/Bcoslkfae8Wc7CUHZ++TuAEBj86pHntjaDKXllPy6PW/gkKFaThwp/K87N8hDcQTTKKFTioSxqB8Q2BNX5JtAljwgAAAABJRU5ErkJggg==>  | work  +1 901 263 7591 <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABcklEQVR4XpXTPUvDUBTH4aR2c2hBQXGpTiIORhBcBOvgYKf0Awi+4Ggr1MVPIIrYdnEpShddHIyLi6AVXVxsRRDRwbi4KNgu4lCIv8i/i6QRDzycy+09555LqOl5nhEUptPoJe1iDHU8oYlrlDw79m4QEbSLPexzsIc8hDRm8YBjLpj4q8EgxQdab+MNd4ghhQ2adIc1+ORAFEnWWfTDRp7GDfImlsIavKALLuqoqMGUCs4wHtagiQ5uc8kDyCOBKlP1k78QNTOZnMXCQRxWsbjl6iuskV41SQG2Gj9rikvcR1WcgKFDBa1LOEUK56hqv8BUFV3SGWkVS9JQ6Dsv4wQ1DKMPORUvkm78BhdQMI1CTa5I0yrcwSFqFD+SZ7DQesIkCG5S/JpkHYERQRmuNsrZ7Grc+Ef8/Bcoslkfae8Wc7CUHZ++TuAEBj86pHntjaDKXllPy6PW/gkKFaThwp/K87N8hDcQTTKKFTioSxqB8Q2BNX5JtAljwgAAAABJRU5ErkJggg==> 
+
+________________________________
+
+From: Kesavan, SenthilRajakumar
+Sent: Thursday, March 01, 2018 12:42 AM
+To: Sreedhar Khatri (OSV); Kottisa, Saibhargav
+Cc: Jain, Rishu; CR, Vivekananda; Mani, Saravanan; ChennaiFedEx_Dev_Framework
+Subject: RE: Regarding the Requests worked on 28th Feb/2018
+
+
+
+Congratulations Sai. Well done.
+
+ 
+
+Thanks & Regards,
+
+Senthil.K,
+
+FedEx-DEV Frame Work-FOSS Support,
+
+Off +91-44-47423800- 5437|Nor: 41 5437|Mob: 91 9790801190.
+
+ 
+
+From: Sreedhar Khatri (OSV) [mailto:sreedhar.khatri.osv@fedex.com] 
+Sent: Thursday, March 01, 2018 12:52 AM
+To: Kottisa, Saibhargav
+Cc: Jain, Rishu; CR, Vivekananda; Mani, Saravanan; ChennaiFedEx_Dev_Framework
+Subject: RE: Regarding the Requests worked on 28th Feb/2018
+
+ 
+
+Hi Saibhargav,
+
+ 
+
+Appreciate your efforts towards CI/CD. 
+
+ 
+
+Good to see we have good trained resource in CD/CD support. 
+
+ 
+
+Thanks Giridhar for you are time. 
+
+ 
+
+ 
+
+Thanks and Regards,
+
+Sreedhar Khatri  , SAFe® Practitioner
+
+Developer Frameworks, 40 FedEx Parkway, 1st Floor Horizontal, Collierville, TN – 38017.
+
+Desk#901-263-8487
+
+ 
+
+From: Kottisa, Saibhargav [mailto:Saibhargav_Kottisa@syntelinc.com] 
+Sent: Wednesday, February 28, 2018 11:57 AM
+To: ChennaiFedEx_Dev_Framework <ChennaiFedEx_Dev_Framework@syntelinc.com>
+Cc: Jain, Rishu <Rishu_Jain@syntelinc.com>; CR, Vivekananda <Vivekananda_CR@syntelinc.com>; Mani, Saravanan <Saravanan_Mani@syntelinc.com>; 'Sreedhar Khatri (OSV)' <sreedhar.khatri.osv@fedex.com>
+Subject: Regarding the Requests worked on 28th Feb/2018
+
+ 
+
+Hi Team,
+
+ 
+
+Please find the  details of 4 CI/CD requests which I have worked for today.
+
+S.no
+
+	Request ID
+
+	Support category
+
+	Resolution
+
+	Status
+
+	Shift time
+
+	
+1
+
+	TASK0090881
+
+	CI/CD support
+
+	Gave access to FF-DO-Admin group  shared library for the mentioned sonar project
+
+	Closed
+
+	3pm to 12am
+
+	
+2
+
+	TASK0090955
+
+	CI/CD support
+
+	Created common login to the nexus repo for eai:1492 and configured in the jenkins side for transferring artifacts over ssh
+
+	Closed
+
+	3pm to 12am
+
+	
+3
+
+	TASK0090957
+
+	CI/CD support
+
+	Suggested user to raise gitlab developer AD group access in IMAGE site
+
+	Closed
+
+	3pm to 12am
+
+	
+4
+
+	TASK0090994
+
+	CI/CD support
+
+	Created folders in jenkins  and gave IMAGE authentication to config,build,etc…. And also suggested user  to raise gitlab developer AD group access in IMAGE 
+
+	Closed
+
+	3pm to 12am
+
+	
+
+ 
+
+ 
+
+ 
+
+Thanks and Regards,
+
+Kottisa Sai Bhargav.
+

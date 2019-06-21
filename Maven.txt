@@ -1,0 +1,1 @@
+mvn archetype:generate -DgroupId={com.research} -DartifactId={NumberTester} -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
