@@ -1,0 +1,44 @@
+Following is URL of cds for various levels :
+L1 =        cds.url=https://cds-level1.ute.fedex.com/CommonDataService/secure/cds2.wsdl
+L2 =        cds.url=https://cds-level2.ute.fedex.com/CommonDataService/secure/cds2.wsdl
+L3 =        cds.url=https://cds-level3.ute.fedex.com/CommonDataService/secure/cds2.wsdl
+L 4=        cds.url=https://cds-level4.ute.fedex.com/CommonDataService/secure/cds2.wsdl
+L 6=        cds.url=https://cds-level6.prod.fedex.com/CommonDataService/secure/cds2.wsdl 
+PROD=       cds.url=https://cds.prod.fedex.com/CommonDataService/secure/cds2.wsdl
+
+
+
+Following is details of LDAP for various level :
+Level 0 & 1 -         ldap.url=ldap://dirdev.corp.fedex.com:389/ou=people,o=fedex,c=us
+Level 2, 3, 4, 5, 6 - ldap.url=ldap://dirtest.corp.fedex.com:389/ou=people,o=fedex,c=us
+Level Prod -          ldap.url=ldap://directory.fedex.com:389/ou=people,o=fedex,c=us
+
+
+
+Following is details of IDM url :
+L4
+Change https://idmtest.web.fedex.com/delegation/services/Delegation?wsdl
+To https://test.secure.fedex.com/delegation/services/Delegation?wsdl
+
+Change https://idmtest.web.fedex.com/DelegationJWS/DelegationV2?wsdl
+To https://test.secure.fedex.com/DelegationJWS/DelegationV2?wsdl
+
+PROD
+Change https://identity.web.fedex.com/delegation/services/Delegation?wsdl
+To https://sso.secure.fedex.com/delegation/services/Delegation?wsdl
+
+Change https://identity.web.fedex.com/DelegationJWS/DelegationV2?wsdl 
+To https://sso.secure.fedex.com/DelegationJWS/DelegationV2?wsdl
+
+Change http://idmtest02.infosec.fedex.com:4388/DelegationJWS/DelegationV2?WSDL
+
+Hereafter we don’t need test and dev IDM servers and ONLY have the L4 server. 
+So use https://test.secure.fedex.com/delegation/services/Delegation?wsdl
+instead of Old "test" server names include idmtest01, idmtest02, idmdev01, idmdev02, all on the InfoSec.fedex.com domain.
+
+
+
+security.api.groups.grs.url for different levels :
+Dev:  security.api.groups.grs.url=http://dev-mygroups.corp.fedex.com:1904/wsso/mygroups
+Test: security.api.groups.grs.url=http://stg-mygroups.corp.fedex.com:2004/wsso/mygroups
+Prod: security.api.groups.grs.url=http://grs-sso.prod.fedex.com:2204/wsso/mygroups

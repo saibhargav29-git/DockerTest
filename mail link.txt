@@ -1,0 +1,166 @@
+https://newweb.mail.fedex.com/iwc_static/c11n/allDomain/layout/login.html?lang=en-US&2-5.01_185900&svcs=abs,mail,calendar,c11n
+
+http://dev.secure.fedex.com/esc
+5071402
+
+https://jenkins.test.cloud.fedex.com:8443/jenkins/
+
+Fedex Url: 
+http://home.fedex.com/corporate
+https://sso.secure.fedex.com/fedextras/downloads.iface
+
+Use the URL: 
+https://sso.secure.fedex.com/utetesla/am/servers.php#   
+
+Developer Framework Users Guide 
+http://itg.prod.fedex.com/sf/go/doc325481?nav=1
+can find.
+
+Developer Framework Best Practices - http://itg.prod.fedex.com/sf/docman/do/listDocuments/projects.ea_framework/docman.root.userdocumentation.best_practices
+cant find  
+
+DFW 6.0.0 Migration guide – 
+http://itg.prod.fedex.com/sf/go/doc1106612?nav=1
+can find
+
+DFW Migration guide (4.1.0 to 5.0.0) – 
+http://itg.prod.fedex.com/sf/go/doc887384?nav=1
+can find
+
+Explanation of properties in security. Properties file - 
+http://itg.prod.fedex.com/sf/go/doc741529?nav=1
+can find
+
+Installing and using m2eclipse with Framework Maven Repository - 
+http://itg.prod.fedex.com/sf/go/doc794719?nav=1
+can find
+
+
+ESC User guide :
+http://itg.prod.fedex.com/sf/go/doc325883?nav=1
+
+
+Cert_Rotation_Quick_Checklist – 
+http://itg.prod.fedex.com/sf/go/doc893951?nav=1
+can find
+
+Developer Framework Release Notes – 
+http://itg.prod.fedex.com/sf/go/doc325483?nav=1
+can find
+
+DFW Compatibility matrix – 
+http://itg.prod.fedex.com/sf/go/doc1013299?nav=1
+can find
+
+
+CSR Developer Guide – 
+http://itg.prod.fedex.com/sf/go/doc387346?nav=1
+can find
+
+
+CSR2 Developer Guide – 
+http://itg.prod.fedex.com/sf/go/doc1087130?nav=1
+can find
+
+Enterprise Security Center User Guide – 
+http://itg.prod.fedex.com/sf/go/doc325883?nav=1
+can find
+
+
+Enterprise Security Service User Guide – 
+http://itg.prod.fedex.com/sf/go/doc483104?nav=1
+can find
+
+To Register the Server access:
+Use the URL  : 
+https://sso.secure.fedex.com/utetesla/am/servers.php#   
+to register for the server access.
+
+FedEx Mail
+https://newweb.mail.fedex.com 
+
+shared folder.
+\\synchgdcfs04\fedex$\Project_Repositories\FedEx_Dev_Framework
+\\SYNCHGDCFS04\Fedex$\Project_Repositories\FedEx_Dev Framework\
+
+
+ESC
+https://dev.secure.fedex.com/wsso/login.html
+
+
+EWF DEV Env (replace test with esc for test env)
+https://dev.secure.fedex.com/workflow/default.jsf
+
+
+support Trackers :
+http://itg.prod.fedex.com/sf/tracker/do/listArtifacts/projects.ea_framework/tracker.supportrequesttracker
+
+
+
+
+10.255.249.51
+10.255.249.52
+192.168.195.253
+192.168.195.254        
+
+
+GUI        https://dev.secure.fedex.com/escl1/
+
+Service  http://c0001733.test.cloud.fedex.com:6092/esc/service1.wsdl
+
+TSG support Chennai -
+muthuraman_balakrishnan@syntelinc.com
+412223
+Ranjith - 418111 , Srini - 412484 and  Muthu - 412223
+
+
+************************************************
+* Symphony : http://itg.prod.fedex.com/SymWeb/ *
+************************************************
+
+VDI Link : https://desktopo.fedex.com/Citrix/EDCWOZWeb/
+
+
+Developer framework 7.0.0 download link :
+http://nexus.test.cloud.fedex.com:8081/nexus/content/repositories/devframeworkrepo/devframework/PackageFramework/7.0.0/
+
+Maven link for DFW 7.0.0
+http://nexus.test.cloud.fedex.com:8081/nexus/content/repositories/devframeworkrepo/devframework/DeveloperFramework/7.0.0/
+
+
+L2 is Dev ESC and uses Dev LDAP, but I see Test LDAP and L2 for CDS URL. The proper configuration for test would be L3 ESC and Test LDAP
+
+
+
+JAVVAJI VENKATA VIJAYA BHASKAR
+
+
+
+srini.challapalli.osv@fedex.com  : GRS team
+
+Ramesh share drive Data
+\\SYNCGDC3251\SharedFolder\CIAM\RP\D
+\\syncgdc3251\SharedFolder\CIAM\Mukesh
+
+sk942833
+Fedex300
+
+opt/fedex/fdx_5016469/sampleservice/data/  ---- for certs and prop files in server
+/var/fedex/fdx_5016469/sampleservice/logs  ---- Different log files for application
+
+
+To be a part of managing role of application, please follow below steps:
+1) Open ESC Home page 
+2) Enter new setup requests by clicking the "Sign Me up Link" on the Home Page of ESC 
+3) The welcome screen will displays with different esc level keywords. Click on OK 
+4) Select your application's Symphony profile in the Symphony profile picker and select your application id from the application id drop down. Click the submit button. 
+Note: 
+After this HFLOW will be initiated by the requestor and sent to the requestor's manager for approval. 
+Once manager approval is received, registration will be completed within 24 hours. The automated setup process will notify the requestor via email that the setup successfully completed and to verify access in the Enterprise Security Center.
+Once you are in the managing role, you can add other users too in the managing role of your application.
+
+
+\\SYNCGDC3251\SharedFolder\CIAM\Latest TokenGen
+
+Java does not like the backslash. Change to the forward slash.
+e.g. - C:/Users/473605/AlpsCode/service_cert_folder_4_test_env/security.properties 

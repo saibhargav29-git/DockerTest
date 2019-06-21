@@ -1,0 +1,15 @@
+Adding application to ESC Service
+
+
+devesc  : https://dev.secure.fedex.com/esc  
+testesc : https://test.secure.fedex.com/esc  
+
+profile : EA-EnterpriseSecurityCenter 
+
+Application :  4393-ESCService 
+UsrName:5071402 
+
+
+Add in Role : authNClients
+
+

@@ -1,0 +1,28 @@
+Sreedhar Khatri (OSV)
+Hi Team,
+Please address this type of issues with below method:
+i. 5688-EntWFEngine 
+                                                                                                1. Policy  -- GuiApplications (role) is allowed to access EnterpriseWorkflowGUI/(resource) 
+ii. 5724 â€“ EntWFEngineWS 
+                                                                                                1. Policy  -- CreateServiceAuthNClients(role) is allowed to access 5724_CreateService/(resource) 
+                                                                                2. Policy -- QueryServiceAuthNClients(role) is allowed to access 5724_QueryService/(resource) 
+                                                                                3. Policy  -- TransitionServiceAuthNClients(role) is allowed to access 5724_TransitionService/(resource) 
+a. Symphony Profile: ESD-EnterpriseWorkflow
+so basically, you'll add their APPID to some or all of these roles
+Thanks and Regards,
+Sreedhar 
+Developer Frameworks, 40 FedEx Parkway, 1st Floor Horizontal, Collierville, TN – 38017.
+Desk#901-263-8487
+1:35 AM
+Hi Team,
+5688-EntWFEngine 
+                                                                                                1. Policy  -- GuiApplications (role) is allowed to access
+1:35 AM
+I just added APP7577 to the aove role 
+1:35 AM
+You do for 5724 
+1:36 AM
+for 3 ploicies 
+1:36 AM
+I do not know y it's not working for you 
+1:43 AM

@@ -1,0 +1,13 @@
+To enter a new setup request for application :
+
+1) Open ESC Home page in needed environment(Dev/Test/Prod) 
+2) Enter new setup requests by clicking the "Sign Me up Link" on the Home Page of ESC 
+3) The welcome screen will displays with different esc level keywords. Click on OK 
+4) Select your application's Symphony profile in the Symphony profile picker and select your application id from the application id drop down. Click the submit button. 
+
+Note: 
+After this HFLOW will be initiated by the requestor and sent to the requestor's manager for approval. 
+Once manager approval is received, registration will be completed within 24 hours. The automated setup process will notify the requestor via email that the setup successfully completed and to verify access in the Enterprise Security Center.
+Once you are in the managing role, you can add other users too in the managing role of your application.
+
+Thanks

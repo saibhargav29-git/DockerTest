@@ -1,0 +1,36 @@
+Hi All,
+
+To handle the connexus repository issue.
+
+This will be body of the message and we need to replace the APP ID and Repository name with the requestor details.
+
+In To: 'joe.wolford@fedex.com'
+Cc : 'chris.warren@fedex.com'; 'keerthichandra.nagareddy@fedex.com'
+Abhishay,
+
+Now you have similar kind of ticket, so send the new mail with the details and update the tracker with We have sent the mail and once done will let you know.
+
+Thanks,
+Sreedhar 
+
+
+From: Sreedhar Khatri [mailto:sreedhar.khatri.osv@fedex.com] 
+Sent: Friday, July 22, 2016 8:58 AM
+To: 'joe.wolford@fedex.com'
+Cc: 'chris.warren@fedex.com'; 'keerthichandra.nagareddy@fedex.com'
+Subject: Jenkins & CoNexus for App 115898 
+
+Hi Joe,
+
+Could you please  add  App 115898 (SRS-EDI-MAINTENANCE) to the Enterprise Jenkins account.
+
+Repository name:
+SRS-EDI-MAINTENANCE
+
+Please let me know in case of any concerns.
+
+
+Thanks and Regards,
+Sreedhar 
+Developer Frameworks, 40 FedEx Parkway, 1st Floor Horizontal, Collierville, TN – 38017.
+Desk#901-263-8487

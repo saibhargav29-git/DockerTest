@@ -1,0 +1,63 @@
+https://web.mail.fedex.com/                        ------>FedExMail
+
+https://jenkins.test.cloud.fedex.com:8443/jenkins/  ----->Jenkins
+
+*****************************************************ESC***********************************************************
+http://dev.secure.fedex.com/esc     5071402---->ESC      Dev Environment
+
+https://stg-wgproxy.corp.fedex.com/esc                    Test Environment
+
+https://wsso.prod.fedex.com/esc                           Prod Environment 
+
+
+Level	            URL	                                     WebService (WSDL)
+ESC L1  	http://dev.secure.fedex.com/escl1            http://devfwk05.ute.fedex.com:6092/esc/service1.wsdl
+ESC L2  	http://dev.secure.fedex.com/esc	             http://devfwk02.ute.fedex.com:6092/esc/service1.wsdl
+ESC L3  	http://test.secure.fedex.com/esc	         http://devfwk03.ute.fedex.com:6092/esc/service1.wsdl
+ESC L4  	http://test.secure.fedex.com/escl4	         http://devfwk04.ute.fedex.com:6092/esc/service1.wsdl
+ESC Prod	http://sso.secure.fedex.com/esc	             http://esc.web.fedex.com/esc/service1.wsdl
+
+
+
+GUI        https://dev.secure.fedex.com/escl1/ 
+Service    http://c0001733.test.cloud.fedex.com:6092/esc/service1.wsdl
+
+
+
+
+******************************************************************************************************************
+
+
+====================SVN Code=========================================================================================
+
+https://svn1.prod.fedex.com/svn/repos/framework    SVN DEV f/m url 
+
+https://conexus.prod.fedex.com:9443/subversion/enterprisesecuritycenter       ESC  SVN Code
+
+https://conexus.prod.fedex.com:9443/subversion/enterpriseworkflow/            EWF  SVN Code
+
+
+======================================================================================================================
+
+Token Gen for ESC: 4393_escservice
+
+
+
+
+http://itg.prod.fedex.com/sf/go/                  Team Forge
+
+https://sso.secure.fedex.com/fedextras/downloads.iface  FedExtras
+
+
+
+keytool -v -list -storetype pkcs12 -keystore APP4067_InfosecTestCA.p12 -storepass armstrong2 ======>cer roation
+
+
+
+\\SYNCHGDCFS04\Fedex$\Project_Repositories\FedEx_Dev Framework\F- Training\FB- Training Records\Daily Status Report.xlsx
+
+VDI Link : https://desktopo.fedex.com/Citrix/EDCWOZWeb/
+
+
+
+
